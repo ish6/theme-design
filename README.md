@@ -1,13 +1,14 @@
-# README
+# Claude-inspired website theme
 
-A modern marketing website theme inspired by the calm, minimal aesthetic of Claude.com.
+A modern one-page marketing site styled with a calm, premium, AI-brand aesthetic inspired by Claude.com.
 
-## Project structure
+## Included
 
-- `index.html` — landing page structure
-- `src/main.js` — small interactive behavior for nav state
-- `src/styles.css` — design system, layout, and theme styling
-- `package.json` — Vite project configuration
+- warm neutral palette and layered glassmorphism cards
+- editorial heading system and generous whitespace
+- product hero with AI chat mockup
+- feature, workflow, testimonial, and pricing sections
+- responsive layout tuned for desktop and mobile
 
 ## Run locally
 
@@ -16,21 +17,8 @@ npm install
 npm run dev
 ```
 
-Then open the local Vite URL shown in the terminal.
+## Customize
 
-## Theme direction
-
-This theme follows a Claude-inspired visual system:
-
-- warm off-white backgrounds
-- soft neutral surfaces and elevated cards
-- generous whitespace and editorial typography
-- minimal UI chrome with subtle shadows
-- calm, high-contrast content hierarchy
-- premium SaaS landing page layout
-
-## Customization ideas
-
-- swap the brand name and colors in `src/styles.css`
-- change the hero messaging and pricing content in `index.html`
-- extend the layout with additional sections like testimonials, docs, or integrations
+- text and brand copy: `index.html`
+- color system and spacing: `src/styles.css`
+- interaction polish: `src/main.js`
